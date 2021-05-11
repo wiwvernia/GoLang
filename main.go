@@ -5,14 +5,13 @@ var card = "Ace of Spades"
 func main() {
 	cards := deck{}
 	// var card string = "Ace of Spades"
-	cards = append(cards, "3 of Spades")
 	// for _, card := range cards {
 	// 	fmt.Println(card)
 	// 	cards.print()
 	// }
 
-	cardSuits := []string{"Spades", "Diamond", "Heart"}
-	cardNumber := []string{"1", "2", "3", "4"}
+	cardSuits := []string{"Spades", "Diamond", "Heart", "Clubs"}
+	cardNumber := []string{"Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nice", "Ten", "Jack", "Queen", "King"}
 	for _, suits := range cardSuits {
 		for _, cNumber := range cardNumber {
 			nametest := cNumber + " of " + suits
